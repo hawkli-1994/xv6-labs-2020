@@ -10,8 +10,9 @@ int main(int argc, char *argv[]) {
     char readbuffer[4];
     char *ping = "ping";
     char *pong = "pong";
-    int pid = fork();
-    if (pid == 0) {
+    int pid;
+    if (fork() == 0) {
+        pid = getpid();
         read(p[0], readbuffer, 4);
         if (strcmp(ping, readbuffer)) {
             printf("%d: received %s\n", pid, ping);
@@ -20,6 +21,7 @@ int main(int argc, char *argv[]) {
             exitStatus = 1;
         }
     } else {
+        pid = getpid();
         write(p[1], &ping, 4);
 
         wait(0);
