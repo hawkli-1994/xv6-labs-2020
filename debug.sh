@@ -1,0 +1,1 @@
+riscv64-unknown-elf-gdb -data-directory=/usr/local/Cellar/gdb/10.1/share/gdb
