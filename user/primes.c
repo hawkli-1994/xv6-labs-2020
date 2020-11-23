@@ -16,7 +16,6 @@ int main (int argc, char *argv[]) {
     if (fork() == 0) {
         close(p[1]);
         process(p[0]);
-        close(p[0]);
     } else {
         close(p[0]);
         int len = sizeof(primes) / 4;
@@ -42,7 +41,6 @@ int process(int input) {
     if (fork() == 0) {
         close(processPipe[1]);
         process(processPipe[0]);
-        close(processPipe[0]);
     } else {
         close(processPipe[0]);
         while (isEmpty != 0) {
