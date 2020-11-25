@@ -10,9 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93d621e9-9762-4a92-9365-d5cc0001fe5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/keran.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/sysinfo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/defs.h" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/defs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/kalloc.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/kalloc.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kernel/proc.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/proc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/proc.h" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/proc.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kernel/syscall.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/syscall.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kernel/syscall.h" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/syscall.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kernel/sysproc.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/sysproc.c" afterDir="false" />
@@ -48,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -72,7 +77,7 @@
       <workItem from="1606026516715" duration="15546000" />
       <workItem from="1606137912996" duration="13436000" />
       <workItem from="1606193266240" duration="10974000" />
-      <workItem from="1606283913617" duration="4160000" />
+      <workItem from="1606283913617" duration="8301000" />
     </task>
     <servers />
   </component>
@@ -92,9 +97,9 @@
       <screen x="0" y="25" width="1440" height="828" />
     </state>
     <state x="537" y="257" width="694" height="518" key="find.popup/0.25.1440.828@0.25.1440.828" timestamp="1606289345464" />
-    <state x="591" y="383" width="670" height="676" key="search.everywhere.popup" timestamp="1606289319364">
+    <state x="591" y="383" width="670" height="676" key="search.everywhere.popup" timestamp="1606293047401">
       <screen x="0" y="25" width="1440" height="828" />
     </state>
-    <state x="591" y="383" width="670" height="676" key="search.everywhere.popup/0.25.1440.828@0.25.1440.828" timestamp="1606289319364" />
+    <state x="591" y="383" width="670" height="676" key="search.everywhere.popup/0.25.1440.828@0.25.1440.828" timestamp="1606293047401" />
   </component>
 </project>
